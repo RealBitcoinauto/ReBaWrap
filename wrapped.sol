@@ -1947,7 +1947,7 @@ pragma solidity ^0.8.2;
 
 contract MyToken is ERC20, ERC20Permit, ERC20Votes, ERC20Wrapper {
     constructor(IERC20 wrappedToken)
-        ERC20("Real.Bitcoinauto", "ReBa")
+        ERC20("ReBaVotes", "ReBaVotes")
         ERC20Permit("ReBaVotes")
         ERC20Wrapper(wrappedToken)
     {}
